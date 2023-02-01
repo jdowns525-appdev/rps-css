@@ -1,70 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <title>You played rock!</title>
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <style>
-  .button { 
-    color: teal; 
-    border: 1px teal solid; 
-    padding-top: 5px; 
-    padding: 5px 15px; 
-    border-radius: 5px; 
-    text-decoration: none; 
-  }
+  <link rel="stylesheet" href="/my_style.css">
+  <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">"
+  </head>
 
-  .player-card {
-    border: thin green solid;
-    width: 49%;
-  }
+  <body>
+    <div class="row mb">
+      <div class="one-third">
+        <a class="button" href="/rock">
+          Play Rock
+        </a>
+      </div>
 
-  .computer-card {
-    border
-  }
-  </style>
+      <div class="one-third">
+        <a class="button" href="/paper">
+          Play Paper
+        </a>
+      </div>
 
-</head>
+      <div class="one-third">
+        <a class="button" href="/scissors">
+          Play Scissors
+        </a>
+      </div>
+  </div>
 
-<body>
-  <div>
-    <a class="button" href="/rock">
-      Play Rock
+  <div class="row mb">
+    <div class="player-card">
+      <h2>
+      <em>We</em> <strong>played</strong> <a href="https:/www.google.com">rock</a>!
+      </h2> 
+    </div>
+
+    <div class="computer-card">
+      <h2>
+        They played paper!
+      </h2>
+    </div>
+  </div>
+
+  <div class="row-center mb">
+    <div class="outcome-card">
+      <h2>
+        We lost!
+      </h2>
+      </div>
+  </div>
+
+  <div class="row-center mb">
+    <a href="/">
+      Rules
     </a>
   </div>
-
-  <div>
-    <a class="button" href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a class="button" href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
-  <div class="player-card">
-    <h2>
-     <em>We</em> <strong>played</strong> <a href="https:/www.google.com">rock</a>!
-    </h2> 
-  </div>
-
-  <div class="computer-card">
-    <h2>
-      They played paper!
-    </h2>
-  </div>
-
-  <h2 style="color: red">
-    We lost! 
-  </h2>
-
-  <a href="/">
-    Rules
-  </a>
-</body>
-</html>
+  </body>
+  </html>
